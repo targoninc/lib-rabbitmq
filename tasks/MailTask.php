@@ -2,7 +2,7 @@
 
 namespace Lyda\utility\rabbitmq\tasks;
 
-require_once $_SERVER['DOCUMENT_ROOT'] . '/v1/utility/rabbitmq/tasks/RabbitMqTask.php';
+require_once DOCROOT_LIB_RABBITMQ . 'tasks/RabbitMqTask.php';
 
 class MailTask extends RabbitMqTask
 {

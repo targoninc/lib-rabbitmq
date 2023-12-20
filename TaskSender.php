@@ -5,7 +5,9 @@ namespace Lyda\utility\rabbitmq;
 use Exception;
 use Lyda\utility\rabbitmq\tasks\RabbitMqTask;
 
-require_once $_SERVER['DOCUMENT_ROOT'] . '/v1/utility/rabbitmq/RabbitMQ.php';
+define('DOCROOT_LIB_RABBITMQ', realpath(dirname(__FILE__)).'/');
+require_once DOCROOT_LIB_RABBITMQ . 'RabbitMQ.php';
+require_once DOCROOT_LIB_RABBITMQ . 'tasks/MailTask.php';
 
 class TaskSender
 {

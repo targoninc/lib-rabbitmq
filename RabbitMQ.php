@@ -12,8 +12,7 @@ use AMQPQueue;
 use AMQPQueueException;
 use Lyda\utility\rabbitmq\tasks\RabbitMqTask;
 
-require_once $_SERVER['DOCUMENT_ROOT'] . '/v1/utility/rabbitmq/tasks/RabbitMqTask.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
+require_once DOCROOT_LIB_RABBITMQ . 'tasks/RabbitMqTask.php';
 
 class RabbitMQ
 {
