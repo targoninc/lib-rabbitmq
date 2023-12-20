@@ -19,7 +19,7 @@ While getting tasks is generally implemented, it is *not* tested. If you intend 
 use TargonIndustries\rabbitmq\tasks\MailTask;
 use TargonIndustries\rabbitmq\TaskSender;
 
-require_once './tasks/MailTask.php';
+require_once './lib-rabbitmq/TaskSender.php';
 
 $task = new MailTask('someone@somewhere.com', 'User', 'Your Subject here', 'This is an email.');
 try {
