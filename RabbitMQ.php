@@ -1,6 +1,6 @@
 <?php
 
-namespace Lyda\utility\rabbitmq;
+namespace TargonIndustries\rabbitmq;
 
 use AMQPChannel;
 use AMQPChannelException;
@@ -10,7 +10,7 @@ use AMQPExchange;
 use AMQPExchangeException;
 use AMQPQueue;
 use AMQPQueueException;
-use Lyda\utility\rabbitmq\tasks\RabbitMqTask;
+use TargonIndustries\rabbitmq\tasks\RabbitMqTask;
 
 require_once DOCROOT_LIB_RABBITMQ . 'tasks/RabbitMqTask.php';
 

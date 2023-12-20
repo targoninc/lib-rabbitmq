@@ -1,6 +1,6 @@
 <?php
 
-namespace Lyda\utility\rabbitmq\tasks;
+namespace TargonIndustries\rabbitmq\tasks;
 
 abstract class RabbitMqTask
 {

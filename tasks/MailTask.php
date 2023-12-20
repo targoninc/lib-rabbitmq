@@ -1,6 +1,6 @@
 <?php
 
-namespace Lyda\utility\rabbitmq\tasks;
+namespace TargonIndustries\rabbitmq\tasks;
 
 require_once DOCROOT_LIB_RABBITMQ . 'tasks/RabbitMqTask.php';
 

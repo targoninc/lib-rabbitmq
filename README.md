@@ -16,8 +16,8 @@ While getting tasks is generally implemented, it is *not* tested. If you intend 
 ```php
 <?php
 
-use Lyda\utility\rabbitmq\tasks\MailTask;
-use Lyda\utility\rabbitmq\TaskSender;
+use TargonIndustries\rabbitmq\tasks\MailTask;
+use TargonIndustries\rabbitmq\TaskSender;
 
 require_once './tasks/MailTask.php';
 

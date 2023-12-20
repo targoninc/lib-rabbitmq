@@ -1,9 +1,9 @@
 <?php
 
-namespace Lyda\utility\rabbitmq;
+namespace TargonIndustries\rabbitmq;
 
 use Exception;
-use Lyda\utility\rabbitmq\tasks\RabbitMqTask;
+use TargonIndustries\rabbitmq\tasks\RabbitMqTask;
 
 define('DOCROOT_LIB_RABBITMQ', realpath(dirname(__FILE__)).'/');
 require_once DOCROOT_LIB_RABBITMQ . 'RabbitMQ.php';
