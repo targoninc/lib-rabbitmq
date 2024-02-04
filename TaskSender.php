@@ -8,6 +8,7 @@ use TargonIndustries\rabbitmq\tasks\RabbitMqTask;
 define('DOCROOT_LIB_RABBITMQ', realpath(dirname(__FILE__)).'/');
 require_once DOCROOT_LIB_RABBITMQ . 'RabbitMQ.php';
 require_once DOCROOT_LIB_RABBITMQ . 'tasks/MailTask.php';
+require_once DOCROOT_LIB_RABBITMQ . 'tasks/GenericTask.php';
 
 class TaskSender
 {
